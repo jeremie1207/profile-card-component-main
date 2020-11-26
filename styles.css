@@ -2,8 +2,17 @@
 body{
   margin: 0;
   padding: 0;
+  background-color: hsl(185, 75%, 39%);
+  background-image: url('images/bg-pattern-bottom.svg'), url('images/bg-pattern-top.svg');
+  background-position:right 100px bottom 20px  , top -50px left 50px;
+  background-size: 250px;
+  background-repeat: no-repeat;
   font-family: 'Kumbh Sans', sans-serif;
-
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
 }
 h2{
   font-weight: 700;
@@ -20,7 +29,64 @@ img{
   border: 5px solid white;
 }
 
-@media only screen and (max-width: 375px) {
+.Profile{
+  background-color: white;
+
+  margin: 8rem 2em;
+  border-radius: 1rem 1rem 1rem 1rem;
+  text-align: center;
+  min-height: 16.5rem;
+  width: 25%;
+}
+.CompteInfosTop{
+  background-image: url('images/bg-pattern-card.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1rem 1rem 0 0 ;
+
+}
+img{
+  position: relative;
+  top: 3.5rem;
+}
+.NameAndAgesLondon{
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  flex-direction: column;
+
+}
+.NameAndAges{
+  display: flex;
+  margin: .5rem 0;
+  position: relative;
+  top : 2rem;
+  left: 7.8rem;
+
+}
+.NameAndAges h2{
+  margin-right: .5rem
+}
+.CompteInfosBas{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2.5rem;
+  align-content: center;
+  border-top: solid 1px gray;
+}
+.InfosCompte h2{
+  margin-bottom: 0.2rem;
+}
+
+@media only screen and (max-width: 1025px){
+  .Profile{
+    width: 35%;
+  }  
+}
+
+
+
+@media only screen and (max-width: 376px) {
   body{
     background-color: hsl(185, 75%, 39%);
     background-image: url('images/bg-pattern-bottom.svg'), url('images/bg-pattern-top.svg');
@@ -37,6 +103,7 @@ img{
     border-radius: 1rem 1rem 1rem 1rem;
     text-align: center;
     min-height: 16.5rem;
+    width: 80%;
   }
   .CompteInfosTop{
     background-image: url('images/bg-pattern-card.svg');
@@ -79,3 +146,4 @@ img{
   }
 
 }
+
