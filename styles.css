@@ -4,8 +4,8 @@ body{
   padding: 0;
   background-color: hsl(185, 75%, 39%);
   background-image: url('images/bg-pattern-bottom.svg'), url('images/bg-pattern-top.svg');
-  background-position:right 100px bottom 20px  , top -50px left 50px;
-  background-size: 250px;
+  background-position:right 10em bottom -16em  , top -10em left 8em;
+  background-size: 31.25em;
   background-repeat: no-repeat;
   font-family: 'Kumbh Sans', sans-serif;
   display : flex;
@@ -78,7 +78,30 @@ img{
   margin-bottom: 0.2rem;
 }
 
-
+@media only screen and (max-width: 1025px){
+  body{
+      background-position:right 7em bottom -7em  , top -10em left 8em;
+      background-size: 20rem;
+  }
+  .Profile{
+    width: 40%;
+  }
+  .NameAndAges{
+    left: 9.5rem;
+  }
+}
+@media only screen and (max-width: 769px){
+  body{
+      background-position:right 1em bottom -6em  , top -8em left .5em;
+      background-size: 20rem;
+  }
+  .Profile{
+    width: 50%;
+  }
+  .NameAndAges{
+    left: 8rem;
+  }
+}
 
 
 
@@ -142,4 +165,3 @@ img{
   }
 
 }
-
