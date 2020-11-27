@@ -58,10 +58,10 @@ img{
 }
 .NameAndAges{
   display: flex;
-  margin: .5rem 0;
+  margin: .5rem 8rem;
   position: relative;
   top : 2rem;
-  left: 7.8rem;
+
 
 }
 .NameAndAges h2{
@@ -87,7 +87,7 @@ img{
     width: 40%;
   }
   .NameAndAges{
-    left: 9.5rem;
+     margin: .5rem 8rem;
   }
 }
 @media only screen and (max-width: 769px){
@@ -99,7 +99,7 @@ img{
     width: 50%;
   }
   .NameAndAges{
-    left: 8rem;
+      margin: .5rem 8rem;
   }
 }
 
@@ -144,10 +144,9 @@ img{
   }
   .NameAndAges{
     display: flex;
-    margin: .5rem 0;
+    margin: .5rem 5.1rem;
     position: relative;
-    top : 2rem;
-    left: 6.5rem;
+
 
   }
   .NameAndAges h2{
