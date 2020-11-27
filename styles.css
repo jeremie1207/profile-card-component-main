@@ -54,15 +54,14 @@ img{
   align-content: center;
   justify-content: space-around;
   flex-direction: column;
+  align-items: center;
+  width: 100%;
+
 
 }
 .NameAndAges{
   display: flex;
-  margin: .5rem 8rem;
-  position: relative;
-  top : 2rem;
-
-
+  margin-top: 2.5rem;
 }
 .NameAndAges h2{
   margin-right: .5rem
@@ -86,9 +85,7 @@ img{
   .Profile{
     width: 40%;
   }
-  .NameAndAges{
-     margin: .5rem 8rem;
-  }
+
 }
 @media only screen and (max-width: 769px){
   body{
@@ -98,9 +95,7 @@ img{
   .Profile{
     width: 50%;
   }
-  .NameAndAges{
-      margin: .5rem 8rem;
-  }
+
 }
 
 
@@ -141,10 +136,11 @@ img{
     justify-content: space-around;
     flex-direction: column;
 
+
   }
   .NameAndAges{
     display: flex;
-    margin: .5rem 5.1rem;
+
     position: relative;
 
 
